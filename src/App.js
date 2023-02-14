@@ -8,6 +8,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import ReactGA from ReactGA;
 
 import {
   createBrowserRouter,
@@ -24,7 +25,7 @@ import { Technologies } from './components/Technologies';
 import { Home } from './components/home';
 import { Icon } from '@mui/material';
 import { Domain } from './components/domain';
-
+ReactGA.initialize('G-02TTYSDFPL');
 
 function App() {
   return (
